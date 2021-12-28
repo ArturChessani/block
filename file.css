@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    border: 2px solid;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.plate-container {
+    border: 5px solid grey;
+    max-height: 300px;
+    height: 100%;
+    font-size: 0;
+}
+
+.inl-bk {
+    display: inline-block;
+}
+
+.plate {
+    border: 2px solid grey;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    }
+
+    .plate-1 {
+        vertical-align: top;
+    }
+
+#plate-1 {
+    line-height: 300px;
+    background-color: red;
+}
+
+#plate-2 {
+    line-height: 150px;
+    background-color: seagreen;
+}
+
+#plate-3 {
+    line-height: 150px;
+    background-color: palevioletred;
+}
+
+#plate-4a {
+    line-height: 75px;
+    background-color: rebeccapurple;
+}
+
+#plate-4b {
+    line-height: 75px;
+    background-color: rebeccapurple;
+}
+
+.plate-row {
+    height: 100%;
+    width: 50%;
+}
+.halfheight {
+    height: 50%;
+}
